@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "../../../dist/components/SideBar/",           // Los archivos compilados se colocarán en la carpeta dist
+    "module": "CommonJS",       // Usa CommonJS para la compatibilidad de módulos
+    "jsx": "react",             // Preserva JSX para que React lo procese
+    "declaration": true,        // Genera archivos .d.ts para TypeScript
+    "declarationMap": true,     // Genera sourcemaps para los archivos de declaración
+    "sourceMap": true,          // Genera sourcemaps para los archivos .js
+    "esModuleInterop": true,    // Permite la interoperabilidad de módulos ES6 con CommonJS
+    "skipLibCheck": true,       // Omite la comprobación de tipos en archivos de declaración de todas las librerías
+    "forceConsistentCasingInFileNames": true,
+    "strict": true              // Habilita todas las opciones estrictas de tipo
+  },
+  "include": ["./**/*"],      // Incluye todos los archivos TypeScript en src
+  "exclude": ["package.json"]   // Excluye la carpeta node_modules
+}
