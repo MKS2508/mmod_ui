@@ -13,4 +13,4 @@ var MenuItem = function (_a) {
             react_1.default.createElement("span", { className: "flex justify-center items-center transition-transform duration-300 ease-in-out transform text-black hover:text-green-400 p-2 hover:bg-white hover:bg-opacity-20 hover:border hover:border-gray-100 rounded-xl hover:scale-105 backdrop-filter hover:backdrop-blur-md'}" }, react_1.default.cloneElement(item.icon, {})))));
 };
 exports.MenuItem = MenuItem;
-//# sourceMappingURL=MenuItem.js.map
+//# sourceMappingURL=index.js.map

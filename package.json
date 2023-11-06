@@ -44,6 +44,10 @@
     "./TopBar": {
       "import": "./dist/components/TopBar/index.js",
       "require": "./dist/components/TopBar/index.js"
+    },
+    "./ICategory": {
+      "import": "./dist/components/models/ICategpry.js",
+      "require": "./dist/components/models/ICategpry.js"
     }
   },
   "devDependencies": {

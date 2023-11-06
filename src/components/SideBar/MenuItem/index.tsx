@@ -1,10 +1,7 @@
 'use client';
 import React from "react";
- interface ICategory {
-    icon:  React.JSX.Element | any;
-    link: string;
-    name: string;
-}
+
+import ICategory from "../../models/ICategory"
 interface IProps {
     item: ICategory;
 
