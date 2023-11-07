@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "files": [
     "index.ts",
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "tsc && postcss src/components/**/styles.css --base src/components --dir dist/src/components",
