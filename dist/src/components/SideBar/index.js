@@ -55,9 +55,11 @@ var SideBar = function (_a) {
         visible: { opacity: 1, x: 0 },
         exit: { opacity: 0, x: -50 },
     };
-    return (react_1.default.createElement(framer_motion_1.AnimatePresence, null, !isVisible ? (react_1.default.createElement(SideBarComponent, { initial: "hidden", animate: "visible", exit: "exit", variants: sidebarVariants, transition: { duration: 1 } },
-        react_1.default.createElement(SideBarNavigation, null,
-            react_1.default.createElement(MenuItemList, null, sideBarMenuItems.map(function (item, index) { return (react_1.default.createElement(MenuItem_1.MenuItem, { key: index, item: item })); }))))) : null));
+    return (react_1.default.createElement(framer_motion_1.AnimatePresence, null,
+        react_1.default.createElement(SideBarComponent, { initial: "hidden", animate: "visible", exit: "exit", variants: sidebarVariants, transition: { duration: 1 } },
+            react_1.default.createElement(SideBarNavigation, null,
+                react_1.default.createElement(MenuItemList, null, sideBarMenuItems.map(function (item, index) { return (react_1.default.createElement(MenuItem_1.MenuItem, { key: index, item: item })); })))),
+        ")"));
 };
 exports.default = SideBar;
 var templateObject_1, templateObject_2, templateObject_3;
