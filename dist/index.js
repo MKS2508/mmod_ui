@@ -4,9 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TopBar = exports.SideBar = void 0;
-var SideBar_1 = __importDefault(require("./src/components/SideBar"));
-Object.defineProperty(exports, "SideBar", { enumerable: true, get: function () { return SideBar_1.default; } });
-var TopBar_1 = __importDefault(require("./src/components/TopBar"));
+var SideBar_1 = __importDefault(require("./dist/src/components/SideBar"));
+exports.SideBar = SideBar_1.default;
+var TopBar_1 = __importDefault(require("./dist/src/components/TopBar"));
 exports.TopBar = TopBar_1.default;
 //export { default as Footer } from './src/components/Footer';
 //export { default as Content } from './src/components/Content';

@@ -1,1 +1,1 @@
-{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../index.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,OAAO,IAAI,OAAO,EAAE,MAAM,0BAA0B,CAAC;AAC9D,OAAO,MAAM,MAAM,yBAAyB,CAAC;AAC7C,OAAO,SAAS,MAAM,mCAAmC,CAAC;AAC1D,OAAO,EAAE,OAAO,EAAE,MAAM,EAAE,SAAS,EAAG,CAAC"}
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../index.ts"],"names":[],"mappings":"AACA,OAAO,OAAO,MAAM,+BAA+B,CAAC;AACpD,OAAO,MAAM,MAAM,8BAA8B,CAAC;AAClD,OAAO,SAAS,MAAM,wCAAwC,CAAC;AAC/D,OAAO,EAAE,OAAO,EAAE,MAAM,EAAE,SAAS,EAAG,CAAC"}
