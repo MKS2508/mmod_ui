@@ -1,6 +1,6 @@
 {
   "name": "mmod_ui",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "description": "UI components library for Medicina Moderna",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
