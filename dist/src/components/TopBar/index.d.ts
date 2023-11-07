@@ -5,6 +5,6 @@ interface TopBarProps {
     IconoCarrito: ReactElement;
     BarraBusqueda: ReactElement;
 }
-export declare const TopBar: FC<TopBarProps>;
+declare const TopBar: FC<TopBarProps>;
 export default TopBar;
 //# sourceMappingURL=index.d.ts.map

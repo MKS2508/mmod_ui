@@ -8,7 +8,7 @@ interface TopBarProps {
     BarraBusqueda: ReactElement;
 }
 
-export const TopBar: FC<TopBarProps> = ({ logoSrc, IconoUsuario, IconoCarrito, BarraBusqueda }) => {
+ const TopBar: FC<TopBarProps> = ({ logoSrc, IconoUsuario, IconoCarrito, BarraBusqueda }) => {
     const iconStyle = "cursor-pointer flex items-center justify-center w-10 sm:w-12 h-10 sm:h-12 rounded-full bg-gray-0 bg-opacity-0 z-22";
 
     return (

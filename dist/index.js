@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.TopBar = exports.SideBar = void 0;
 var SideBar_1 = __importDefault(require("./src/components/SideBar"));
 Object.defineProperty(exports, "SideBar", { enumerable: true, get: function () { return SideBar_1.default; } });
-var TopBar_1 = require("./src/components/TopBar");
-Object.defineProperty(exports, "TopBar", { enumerable: true, get: function () { return TopBar_1.TopBar; } });
+var TopBar_1 = __importDefault(require("./src/components/TopBar"));
+exports.TopBar = TopBar_1.default;
 //export { default as Footer } from './src/components/Footer';
 //export { default as Content } from './src/components/Content';
 //# sourceMappingURL=index.js.map

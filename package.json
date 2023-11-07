@@ -30,7 +30,11 @@
   "license": "ISC",
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.34",
+    "framer-motion": "^10.16.4",
+    "postcss": "^8.4.31",
+    "styled-components": "^6.1.0"
   },
   "exports": {
     ".": {
@@ -51,15 +55,15 @@
     }
   },
   "devDependencies": {
-    "@types/react": "^18.2.34",
     "autoprefixer": "^10.4.16",
     "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.3.5",
-    "typescript": "^5.2.2"
-  },
-  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/react": "^18.2.34",
     "framer-motion": "^10.16.4",
     "postcss": "^8.4.31",
-    "styled-components": "^6.1.0"
+    "styled-components": "^6.1.0",
+    "typescript": "^5.2.2"
   }
 }
