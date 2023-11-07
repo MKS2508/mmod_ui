@@ -12,5 +12,5 @@
     "strict": true              // Habilita todas las opciones estrictas de tipo
   },
   "include": ["index.ts"],      // Incluye todos los archivos TypeScript en src
-  "exclude": ["node_modules", "src"]   // Excluye la carpeta node_modules
+  "exclude": ["node_modules"]   // Excluye la carpeta node_modules
 }
