@@ -1,6 +1,6 @@
 {
   "name": "mmod_ui",
-  "version": "1.1.15",
+  "version": "1.0.11",
   "description": "UI components library for Medicina Moderna",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,19 +30,7 @@
   "license": "ISC",
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@types/react": "^18.2.34",
-    "framer-motion": "^10.16.4",
-    "postcss": "^8.4.31",
-    "styled-components": "^6.1.0"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@types/react": "^18.2.34",
-    "framer-motion": "^10.16.4",
-    "postcss": "^8.4.31",
-    "styled-components": "^6.1.0"
+    "react-dom": "^18.2.0"
   },
   "exports": {
     ".": {
@@ -63,15 +51,15 @@
     }
   },
   "devDependencies": {
+    "@types/react": "^18.2.34",
     "autoprefixer": "^10.4.16",
     "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.3.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@types/react": "^18.2.34",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
     "framer-motion": "^10.16.4",
     "postcss": "^8.4.31",
-    "styled-components": "^6.1.0",
-    "typescript": "^5.2.2"
+    "styled-components": "^6.1.0"
   }
 }
