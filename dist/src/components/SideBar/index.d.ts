@@ -1,9 +1,7 @@
 import React from 'react';
-import { ICategory } from "./MenuItem";
-import "./styles.css";
-interface IProps {
-    categories: ICategory[];
+interface ISideBarProps {
+    sideBarMenuItems: any[];
 }
-declare const SideBar: ({ categories }: IProps) => React.JSX.Element;
+declare const SideBar: React.FC<ISideBarProps>;
 export default SideBar;
 //# sourceMappingURL=index.d.ts.map
