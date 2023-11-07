@@ -51,7 +51,6 @@ const SideBar: React.FC<ISideBarProps> = ({ sideBarMenuItems }) => {
 
     return (
         <AnimatePresence>
-            {!isVisible ? (
                 <SideBarComponent
                     initial="hidden"
                     animate="visible"
@@ -70,7 +69,7 @@ const SideBar: React.FC<ISideBarProps> = ({ sideBarMenuItems }) => {
                         </MenuItemList>
                     </SideBarNavigation>
                 </SideBarComponent>
-            ) : null}
+            )
         </AnimatePresence>
     );
 };
